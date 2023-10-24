@@ -1,8 +1,8 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { Roboto_Mono } from 'next/font/google'
 import { Providers } from './providers'
-Providers
-const inter = Inter({ subsets: ['latin'] })
+
+const inter = Roboto_Mono({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Portafolio',
